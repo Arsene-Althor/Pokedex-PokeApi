@@ -1,0 +1,72 @@
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.externalNativeBuild
+.cxx
+captures/
+.navigation/
+*.ipr
+*.iws
+*.classpath
+*.project
+.settings/
+
+# Configuración local
+local.properties
+.artifacts/
+
+# Archivos de compilación
+app/build/
+*.apk
+*.aar
+*.ap_
+*.dex
+bin/
+out/
+
+# Java
+*.class
+*.jar
+*.zip
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Kotlin
+.kotlin/
+.kotlinc
+
+# Secretos y configuración
+*.jks
+*.keystore
+*.pem
+google-services.json
+
+# Editor / IDE
+.vscode/
+.sublime-*
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+lint-results.txt
+lint-results-*.html
+
+# Misc
+.env
+.env.local
+.env.*.local
